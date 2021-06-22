@@ -124,7 +124,7 @@ icons.forEach((icon) => {
 
       containerIcoHTML.innerHTML += `
 
-            <div class="icon-card col>
+            <div class="icon-card col">
             <i class="${family} ${prefix}${name}"</i>
             </div>
             
