@@ -2,10 +2,51 @@
 
 .icon-card{
       flex-basis: calc(100% / 5);
-      height: 120px;
+      max-width: calc(100% / 5);
+      margin-top: 12px;
+      margin-bottom: 12px;
       border: 1px solid #ccc;
       
 
 }
+/* -tolto bordi e attenzione! altezza e assegnata alla card-inner 
+assegnati margin top e bottom separati per non
+sovrascrivere laterali bootstrap / max width da 
+rivedere in chiave mobile*/
+
+.icons-container{
+      background-color: #ddd;
+
+}
+
+.icon-card-inner{
+      background-color: #fff;
+      padding:24px;
+      text-align: center;
+      border-radius: 12px;
+      border: 1px solid #ccc;
+      height: 120px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+
+}
+/* utilizzando flex e aggiungendo separando in due div
+icon e name li mettiamo uno sotto l altro a capo (wrap) e centrati
+align-items align-content  con width 100% x entrambi*/
+
+
+.icon-card-inner .name{
+      font-size: 12px;
+      text-transform: uppercase;
+      width: 100%;
+}
+
+.icon-card-inner .icon{
+      width: 100%;
+}
+
+
 
 
