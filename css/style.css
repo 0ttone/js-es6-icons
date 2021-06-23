@@ -44,7 +44,24 @@ align-items align-content  con width 100% x entrambi*/
 }
 
 .icon-card-inner .icon{
+      font-size: 24px;
       width: 100%;
+}
+
+
+/* assegnati colori attraverso il type nel div icon appena aggiunto */
+.icon.animal{
+      color:#0000ff;
+
+}
+
+.icon.vegetable{
+      color:#ffa500;
+
+}
+
+.icon.user{
+      color:#800080;
 }
 
 
